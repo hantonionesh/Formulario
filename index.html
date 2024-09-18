@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio9</title>
+	<script type="text/javascript" src="funciones.js"></script>
+</head>
+
+<body>
+	<h1 align="center">Datos de ingreso</h1>
+	<form name="formulario" id="formulario">
+	<table align="center" border="0">
+		<tr>
+			<th>Nombre:</th>
+			<td><input type="text" id="nombre"></td>
+		</tr>
+		<tr>
+			<th>Edad:</th>
+			<td><input type="text" id="edad"></td>
+		</tr>
+		<tr>
+			<th>Correo:</th>
+			<td><input type="text" id="correo">
+</td>
+		</tr>
+		<tr>
+			<th>Dirección:</th>
+			<td><input type="text" id="dir"></td>
+		</tr>
+		<tr>
+			<th>Teléfono:</th>
+			<td><input type="text" id="tel"></td>
+		</tr>
+		<tr>
+			<th>RFC:</th>
+			<td><input type="text" id="rfc" name="rfc"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><br></td>
+		</tr>
+		<tr>
+			<td align="center"><input type="button" value="Validar" onClick="validar();validar_edad();validar_rfc(rfc.value);validar_tel();validar_correo()"></td>
+			<td align="center"><input type="reset" value="Borrar"></td>
+		</tr>
+	</table>
+	</form>	
+</body>
+</html> 
